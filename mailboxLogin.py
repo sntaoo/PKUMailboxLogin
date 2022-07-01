@@ -1,4 +1,3 @@
-from click import password_option
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver import PhantomJS
 import time
@@ -45,8 +44,8 @@ if __name__ == '__main__':
 
     driver = PhantomJS(executable_path=phantomjs_path)
 
-    user_name = '此处改为学号(只要学号，不要@pku.edu.cn)' # TODO
-    password = '此处改为邮箱登陆密码' # TODO
+    user_name = '此处改为学号(只要学号，不要@pku.edu.cn)'  # TODO
+    password = '此处改为邮箱登陆密码'  # TODO
     run(driver, user_name, password)
 
     driver.close()
