@@ -18,7 +18,7 @@
     - 点击右边的“创建基本任务”<img src="pictures/create.png">
     - 设置自己的任务名<img src="pictures/setname.png">
     - 设置执行周期和时间<img src="pictures/setcycle.png">
-    - 选择“执行程序”<img src="pictures/setcycle.png">
+    - 选择“执行程序”<img src="pictures/choose.png">
     - 填入文件路径<img src="pictures/locate.png">
     - 最后如图,注意要选中小方框<img src="pictures/final.png">
     - 在弹出的小方框中选择“更改用户或组”<img src="pictures/system.png">
