@@ -1,0 +1,24 @@
+SetProcessDpiAwareness failed: "COM error 0x80070005  (Unknown error 0x0ffffffff80070005)"
+[INFO  - 2022-07-01T09:03:11.098Z] GhostDriver - Main - running on port 1490
+[INFO  - 2022-07-01T09:03:13.267Z] Session [a31cd8e0-f91c-11ec-9a2f-bd044f79d509] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2022-07-01T09:03:13.267Z] Session [a31cd8e0-f91c-11ec-9a2f-bd044f79d509] - page.customHeaders:  - {}
+[INFO  - 2022-07-01T09:03:13.267Z] Session [a31cd8e0-f91c-11ec-9a2f-bd044f79d509] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2022-07-01T09:03:13.267Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a31cd8e0-f91c-11ec-9a2f-bd044f79d509
+[ERROR - 2022-07-01T09:03:13.795Z] Session [a31cd8e0-f91c-11ec-9a2f-bd044f79d509] - page.onError - msg: TypeError: null is not an object (evaluating 'tmp.length')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2022-07-01T09:03:13.796Z] Session [a31cd8e0-f91c-11ec-9a2f-bd044f79d509] - page.onError - stack:
+  getCookie (https://mail.pku.edu.cn/coremail/cmcu_var/index_pku_1/login_0.js:383)
+  initInputCss (https://mail.pku.edu.cn/coremail/cmcu_var/index_pku_1/login_0.js:333)
+  initXT3 (https://mail.pku.edu.cn/coremail/cmcu_var/index_pku_1/login_0.js:100)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2022-07-01T09:03:14.359Z] Session [a31cd8e0-f91c-11ec-9a2f-bd044f79d509] - page.onError - msg: TypeError: null is not an object (evaluating 'tmp.length')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2022-07-01T09:03:14.359Z] Session [a31cd8e0-f91c-11ec-9a2f-bd044f79d509] - page.onError - stack:
+  getCookie (https://mail.pku.edu.cn/coremail/cmcu_var/index_pku_1/login_0.js:383)
+  page_onLoad (https://mail.pku.edu.cn/:35)
+  onload (https://mail.pku.edu.cn/:44)
+
+  phantomjs://platform/console++.js:263 in error
